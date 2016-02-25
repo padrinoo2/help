@@ -249,7 +249,7 @@ function create_config( )
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
+https://github.com/mamadiraner/NOVAISDDEADD
 
 channel : https://telegram.me/nova_antispam
 sudo : @nova_paydar
@@ -518,7 +518,7 @@ nova Commands list :
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
-channel: @Nod32Team
+channel: https://telegram.me/nova_antispam
 
 G00D LUCK ^_^
 ]]
