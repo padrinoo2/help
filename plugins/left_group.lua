@@ -1,7 +1,7 @@
 do
 -- Will leave the group if be added
 local function run(msg, matches)
-local bot_id = 182195776 -- your bot id
+local bot_id = 143260616 -- your bot id
    -- like local bot_id = 1234567
     if matches[1] == 'leavenod32' and is_admin(msg) then
        chat_del_user("chat#id"..msg.to.id, 'user#id'..bot_id, ok_cb, false)
@@ -14,13 +14,9 @@ end
  
 return {
   patterns = {
-    "^[!/](leavenod32)$",
+    "^[!/](leave)$",
     "^!!tgservice (.+)$",
   },
   run = run
 }
 end
---Copyright and edit; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است
